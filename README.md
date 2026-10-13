@@ -2,7 +2,7 @@
 
 Self-hosted visual management studio for Discord bots within Howling Whispers.
 
-## v0.1 foundation
+## v0.2.0 foundation
 
 - Responsive React bot registry and configuration editor
 - Script source workspace (storage only; **scripts cannot execute yet**)
@@ -10,8 +10,10 @@ Self-hosted visual management studio for Discord bots within Howling Whispers.
 - SQLite persistence and admin-protected Fastify JSON API
 - Connection profiles for PostgreSQL, MySQL, SQLite, Redis, Discord, HTTP and AI providers (**profiles only**, no live database/Discord connections yet)
 - Basic audit events and CRUD API
+- Character Studio: persistent character profiles, personality, speech, greeting and memory policy fields
+- Discord Access Manager: saved per-guild channel allowlists, denylists and DM policy settings (**not yet enforced by running bots**)
 
-**Not production ready:** This version does not launch Discord bots, execute user scripts, test remote SQL connections, provide a visual node editor, offer multi-user login or deploy containers. Status is explicitly 'unmanaged'. Use it only in a private development environment.
+**Not production ready:** Character and access policy records are stored but not enforced until the Discord runtime adapter is implemented.  This version does not launch Discord bots, execute user scripts, test remote SQL connections, provide a visual node editor, offer multi-user login or deploy containers. Status is explicitly 'unmanaged'. Use it only in a private development environment.
 
 ## Start locally
 
