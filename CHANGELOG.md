@@ -2,6 +2,11 @@
 
 All notable changes are documented here. Version numbers follow Semantic Versioning (`MAJOR.MINOR.PATCH`) while the project remains pre-1.0.
 
+## [0.3.1] - 2026-10-13
+### Fixed
+- Correct Discord Application ID and guild/channel snowflake numeric validation (previous regex matched literal backslash-d).
+- Add runtime regex regression tests for valid and invalid Discord IDs.
+
 ## [0.3.0] - 2026-10-13
 ### Added
 - Dedicated Discord Application tab with Client ID, Public Key, Bot Token and OAuth2 Client Secret.
