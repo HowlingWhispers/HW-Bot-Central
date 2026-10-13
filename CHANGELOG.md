@@ -2,6 +2,15 @@
 
 All notable changes are documented here. Version numbers follow Semantic Versioning (`MAJOR.MINOR.PATCH`) while the project remains pre-1.0.
 
+## [0.3.0] - 2026-10-13
+### Added
+- Dedicated Discord Application tab with Client ID, Public Key, Bot Token and OAuth2 Client Secret.
+- Encrypted storage and redacted read API for per-bot Discord application secrets.
+- Existing credentials are preserved when password fields are left empty.
+### Notes
+- These are stored configuration records, not an active Discord Gateway connection.
+- Bot Central admin OAuth2 login is a separate application configuration.
+
 ## [0.2.0] - 2026-10-13
 ### Added
 - Character Studio backend and GUI for names, species, personalities, greetings, speaking styles and memory policy labels.
